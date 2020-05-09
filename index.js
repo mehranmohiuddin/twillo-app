@@ -1,6 +1,5 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const request = require('request');
 const env = require('dotenv').config();
 
 const accountSid = process.env.ACCOUNT_SID;
